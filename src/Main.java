@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +25,8 @@ public class Main {
         System.out.println(robots);
         robots.add(new Robot(-9, 7, Direction.NORTH));
         System.out.println(robots);
+
+        System.out.println("массив возможных значений: "+Arrays.toString(Direction.values()));
     }
 }
 
